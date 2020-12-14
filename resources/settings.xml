@@ -154,20 +154,11 @@
                 </setting>
                 <setting help="" id="kodion.content.max_per_page" label="30022" type="integer">
                     <level>0</level>
-                    <default>9</default>
+                    <default>50</default>
                     <constraints>
-                        <options>
-                            <option label="5">0</option>
-                            <option label="10">1</option>
-                            <option label="15">2</option>
-                            <option label="20">3</option>
-                            <option label="25">4</option>
-                            <option label="30">5</option>
-                            <option label="35">6</option>
-                            <option label="40">7</option>
-                            <option label="45">8</option>
-                            <option label="50">9</option>
-                        </options>
+                        <minimum>5</minimum>
+                        <step>5</step>
+                        <maximum>50</maximum>
                     </constraints>
                     <control format="string" type="spinner"/>
                 </setting>
